@@ -99,7 +99,7 @@ vector<float> Parametizer::parametizeSigmoidal(int iCount)
     vector<float> times;
     
     times.push_back(0.0);
-    float step = 1.0 / float(iCount);
+    float step = 1.0 / float(iCount-1);
     float x = step;
     while(iCount--) {
         float arc = length / (1 + exp(-15.0 * (x - 0.5)));
