@@ -7,16 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C276319A2658E8CA002A6313 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C27631992658E8CA002A6313 /* main.cpp */; };
-		C27631A22658E90E002A6313 /* BSpline.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C27631A02658E90E002A6313 /* BSpline.cpp */; };
-		C27631A52658FAB8002A6313 /* Legendre.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C27631A32658FAB8002A6313 /* Legendre.cpp */; };
-		C27631A82658FAF6002A6313 /* Newton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C27631A62658FAF6002A6313 /* Newton.cpp */; };
-		C27631AB2658FB55002A6313 /* Functor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C27631A92658FB55002A6313 /* Functor.cpp */; };
-		C27631AE2659787A002A6313 /* WayPoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C27631AC2659787A002A6313 /* WayPoint.cpp */; };
+		C2185F062662BAAD00788BA7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C2185F052662BAAD00788BA7 /* main.cpp */; };
+		C2185F0E2662BAF800788BA7 /* BSpline.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C2185F0C2662BAF800788BA7 /* BSpline.cpp */; };
+		C2185F112662C3EF00788BA7 /* Parametizer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C2185F0F2662C3EF00788BA7 /* Parametizer.cpp */; };
+		C2185F142662C7D000788BA7 /* Newton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C2185F122662C7D000788BA7 /* Newton.cpp */; };
+		C2185F172662C82300788BA7 /* Functor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C2185F152662C82300788BA7 /* Functor.cpp */; };
+		C2185F1A2662D22300788BA7 /* Legendre.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C2185F182662D22300788BA7 /* Legendre.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		C27631942658E8CA002A6313 /* CopyFiles */ = {
+		C2185F002662BAAD00788BA7 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -28,22 +28,22 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		C27631962658E8CA002A6313 /* Math */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Math; sourceTree = BUILT_PRODUCTS_DIR; };
-		C27631992658E8CA002A6313 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		C27631A02658E90E002A6313 /* BSpline.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BSpline.cpp; sourceTree = "<group>"; };
-		C27631A12658E90E002A6313 /* BSpline.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BSpline.hpp; sourceTree = "<group>"; };
-		C27631A32658FAB8002A6313 /* Legendre.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Legendre.cpp; sourceTree = "<group>"; };
-		C27631A42658FAB8002A6313 /* Legendre.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Legendre.hpp; sourceTree = "<group>"; };
-		C27631A62658FAF6002A6313 /* Newton.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Newton.cpp; sourceTree = "<group>"; };
-		C27631A72658FAF6002A6313 /* Newton.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Newton.hpp; sourceTree = "<group>"; };
-		C27631A92658FB55002A6313 /* Functor.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Functor.cpp; sourceTree = "<group>"; };
-		C27631AA2658FB55002A6313 /* Functor.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Functor.hpp; sourceTree = "<group>"; };
-		C27631AC2659787A002A6313 /* WayPoint.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = WayPoint.cpp; sourceTree = "<group>"; };
-		C27631AD2659787A002A6313 /* WayPoint.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = WayPoint.hpp; sourceTree = "<group>"; };
+		C2185F022662BAAD00788BA7 /* BSpline */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BSpline; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2185F052662BAAD00788BA7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		C2185F0C2662BAF800788BA7 /* BSpline.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BSpline.cpp; sourceTree = "<group>"; };
+		C2185F0D2662BAF800788BA7 /* BSpline.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BSpline.hpp; sourceTree = "<group>"; };
+		C2185F0F2662C3EF00788BA7 /* Parametizer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Parametizer.cpp; sourceTree = "<group>"; };
+		C2185F102662C3EF00788BA7 /* Parametizer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Parametizer.hpp; sourceTree = "<group>"; };
+		C2185F122662C7D000788BA7 /* Newton.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Newton.cpp; sourceTree = "<group>"; };
+		C2185F132662C7D000788BA7 /* Newton.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Newton.hpp; sourceTree = "<group>"; };
+		C2185F152662C82300788BA7 /* Functor.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Functor.cpp; sourceTree = "<group>"; };
+		C2185F162662C82300788BA7 /* Functor.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Functor.hpp; sourceTree = "<group>"; };
+		C2185F182662D22300788BA7 /* Legendre.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Legendre.cpp; sourceTree = "<group>"; };
+		C2185F192662D22300788BA7 /* Legendre.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Legendre.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C27631932658E8CA002A6313 /* Frameworks */ = {
+		C2185EFF2662BAAD00788BA7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -53,74 +53,74 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C276318D2658E8CA002A6313 = {
+		C2185EF92662BAAD00788BA7 = {
 			isa = PBXGroup;
 			children = (
-				C27631982658E8CA002A6313 /* Math */,
-				C27631972658E8CA002A6313 /* Products */,
+				C2185F042662BAAD00788BA7 /* BSpline */,
+				C2185F032662BAAD00788BA7 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		C27631972658E8CA002A6313 /* Products */ = {
+		C2185F032662BAAD00788BA7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C27631962658E8CA002A6313 /* Math */,
+				C2185F022662BAAD00788BA7 /* BSpline */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C27631982658E8CA002A6313 /* Math */ = {
+		C2185F042662BAAD00788BA7 /* BSpline */ = {
 			isa = PBXGroup;
 			children = (
-				C27631992658E8CA002A6313 /* main.cpp */,
-				C27631AC2659787A002A6313 /* WayPoint.cpp */,
-				C27631AD2659787A002A6313 /* WayPoint.hpp */,
-				C27631A02658E90E002A6313 /* BSpline.cpp */,
-				C27631A12658E90E002A6313 /* BSpline.hpp */,
-				C27631A92658FB55002A6313 /* Functor.cpp */,
-				C27631AA2658FB55002A6313 /* Functor.hpp */,
-				C27631A32658FAB8002A6313 /* Legendre.cpp */,
-				C27631A42658FAB8002A6313 /* Legendre.hpp */,
-				C27631A62658FAF6002A6313 /* Newton.cpp */,
-				C27631A72658FAF6002A6313 /* Newton.hpp */,
+				C2185F052662BAAD00788BA7 /* main.cpp */,
+				C2185F0C2662BAF800788BA7 /* BSpline.cpp */,
+				C2185F0D2662BAF800788BA7 /* BSpline.hpp */,
+				C2185F0F2662C3EF00788BA7 /* Parametizer.cpp */,
+				C2185F102662C3EF00788BA7 /* Parametizer.hpp */,
+				C2185F152662C82300788BA7 /* Functor.cpp */,
+				C2185F162662C82300788BA7 /* Functor.hpp */,
+				C2185F122662C7D000788BA7 /* Newton.cpp */,
+				C2185F132662C7D000788BA7 /* Newton.hpp */,
+				C2185F182662D22300788BA7 /* Legendre.cpp */,
+				C2185F192662D22300788BA7 /* Legendre.hpp */,
 			);
-			path = Math;
+			path = BSpline;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C27631952658E8CA002A6313 /* Math */ = {
+		C2185F012662BAAD00788BA7 /* BSpline */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C276319D2658E8CA002A6313 /* Build configuration list for PBXNativeTarget "Math" */;
+			buildConfigurationList = C2185F092662BAAD00788BA7 /* Build configuration list for PBXNativeTarget "BSpline" */;
 			buildPhases = (
-				C27631922658E8CA002A6313 /* Sources */,
-				C27631932658E8CA002A6313 /* Frameworks */,
-				C27631942658E8CA002A6313 /* CopyFiles */,
+				C2185EFE2662BAAD00788BA7 /* Sources */,
+				C2185EFF2662BAAD00788BA7 /* Frameworks */,
+				C2185F002662BAAD00788BA7 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Math;
-			productName = Math;
-			productReference = C27631962658E8CA002A6313 /* Math */;
+			name = BSpline;
+			productName = BSpline;
+			productReference = C2185F022662BAAD00788BA7 /* BSpline */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		C276318E2658E8CA002A6313 /* Project object */ = {
+		C2185EFA2662BAAD00788BA7 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
-					C27631952658E8CA002A6313 = {
+					C2185F012662BAAD00788BA7 = {
 						CreatedOnToolsVersion = 12.5;
 					};
 				};
 			};
-			buildConfigurationList = C27631912658E8CA002A6313 /* Build configuration list for PBXProject "Math" */;
+			buildConfigurationList = C2185EFD2662BAAD00788BA7 /* Build configuration list for PBXProject "BSpline" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -128,34 +128,34 @@
 				en,
 				Base,
 			);
-			mainGroup = C276318D2658E8CA002A6313;
-			productRefGroup = C27631972658E8CA002A6313 /* Products */;
+			mainGroup = C2185EF92662BAAD00788BA7;
+			productRefGroup = C2185F032662BAAD00788BA7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C27631952658E8CA002A6313 /* Math */,
+				C2185F012662BAAD00788BA7 /* BSpline */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		C27631922658E8CA002A6313 /* Sources */ = {
+		C2185EFE2662BAAD00788BA7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C276319A2658E8CA002A6313 /* main.cpp in Sources */,
-				C27631A22658E90E002A6313 /* BSpline.cpp in Sources */,
-				C27631A82658FAF6002A6313 /* Newton.cpp in Sources */,
-				C27631AB2658FB55002A6313 /* Functor.cpp in Sources */,
-				C27631AE2659787A002A6313 /* WayPoint.cpp in Sources */,
-				C27631A52658FAB8002A6313 /* Legendre.cpp in Sources */,
+				C2185F112662C3EF00788BA7 /* Parametizer.cpp in Sources */,
+				C2185F062662BAAD00788BA7 /* main.cpp in Sources */,
+				C2185F142662C7D000788BA7 /* Newton.cpp in Sources */,
+				C2185F172662C82300788BA7 /* Functor.cpp in Sources */,
+				C2185F0E2662BAF800788BA7 /* BSpline.cpp in Sources */,
+				C2185F1A2662D22300788BA7 /* Legendre.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		C276319B2658E8CA002A6313 /* Debug */ = {
+		C2185F072662BAAD00788BA7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -214,7 +214,7 @@
 			};
 			name = Debug;
 		};
-		C276319C2658E8CA002A6313 /* Release */ = {
+		C2185F082662BAAD00788BA7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -266,7 +266,7 @@
 			};
 			name = Release;
 		};
-		C276319E2658E8CA002A6313 /* Debug */ = {
+		C2185F0A2662BAAD00788BA7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -276,7 +276,7 @@
 			};
 			name = Debug;
 		};
-		C276319F2658E8CA002A6313 /* Release */ = {
+		C2185F0B2662BAAD00788BA7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -289,25 +289,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C27631912658E8CA002A6313 /* Build configuration list for PBXProject "Math" */ = {
+		C2185EFD2662BAAD00788BA7 /* Build configuration list for PBXProject "BSpline" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C276319B2658E8CA002A6313 /* Debug */,
-				C276319C2658E8CA002A6313 /* Release */,
+				C2185F072662BAAD00788BA7 /* Debug */,
+				C2185F082662BAAD00788BA7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C276319D2658E8CA002A6313 /* Build configuration list for PBXNativeTarget "Math" */ = {
+		C2185F092662BAAD00788BA7 /* Build configuration list for PBXNativeTarget "BSpline" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C276319E2658E8CA002A6313 /* Debug */,
-				C276319F2658E8CA002A6313 /* Release */,
+				C2185F0A2662BAAD00788BA7 /* Debug */,
+				C2185F0B2662BAAD00788BA7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = C276318E2658E8CA002A6313 /* Project object */;
+	rootObject = C2185EFA2662BAAD00788BA7 /* Project object */;
 }

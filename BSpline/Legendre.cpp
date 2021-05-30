@@ -1,11 +1,28 @@
 //
 //  Legendre.cpp
-//  Math
+//  BSpline
 //
-//  Created by Edward Janne on 5/22/21.
+//  Created by Edward Janne on 5/29/21.
 //
 
 #include "Legendre.hpp"
+
+extern int ndx[];
+extern double wgts[];
+extern double absc[];
+
+double legendreIntegrate(int order, double from, double to, Functor &f)
+{
+    double r = 0.0;
+    
+    for(int i = 0; i < order; i++) {
+        double w0 = wgts[ndx[order] + i];
+        double a0 = absc[ndx[order] + i];
+        r += w0 * f(0.5 * (to + from + a0 * (to - from)));
+    }
+    
+    return 0.5 * (to - from) * r;
+}
 
 int ndx[] = {
     0,
@@ -4362,16 +4379,3 @@ double absc[] = {
     -0.9993050417357721394569056243456363119697121916756087760628072954617646543505331997843242376462639434945376776512170265314011232493020401570891594274831367800115383317335285468800574240152992751785027563437707875403545865305271045717258142571193695943317890367167086616955235477529427992282,
     0.9993050417357721394569056243456363119697121916756087760628072954617646543505331997843242376462639434945376776512170265314011232493020401570891594274831367800115383317335285468800574240152992751785027563437707875403545865305271045717258142571193695943317890367167086616955235477529427992282
 };
-
-double legendreIntegrate(int order, double from, double to, const Functor &f)
-{
-    double r = 0.0;
-    
-    for(int i = 0; i < order; i++) {
-        double w0 = wgts[ndx[order] + i];
-        double a0 = absc[ndx[order] + i];
-        r += w0 * f(0.5 * (to + from + a0 * (to - from)));
-    }
-    
-    return 0.5 * (to - from) * r;
-}
