@@ -19,14 +19,14 @@ class BSpline
         int maxCPCount;
         int order;
         int cpCount;
-        
+
     public:
-        BSpline(float *iCPBuffer, float *iKnotBuffer, int iStride, int iMaxCount, int iOrder = 4);
-        
-        virtual void init(int iCPCount);
-        
+        BSpline(float *iCPBuffer, float *iKnotBuffer, int iMaxCount, int iOrder = 4);
+
+        virtual void init(int iStride, int iCPCount);
+
         float basis(int i, int k, float t);
-        
+
         void eval(float t, float *oPoint);
         void deriv(float t, float *oPoint);
 };
