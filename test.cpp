@@ -4,6 +4,7 @@
 //
 //  Created by Edward Janne on 5/29/21.
 //
+#include <BSplineCPPConfig.h>
 
 #include <iostream>
 #include "BSpline.hpp"
@@ -75,7 +76,7 @@ int main(int argc, const char * argv[])
 
     Parametizer param(spline);
     param.init();
-    
+
     vector<float> parametization = param.parametizeSigmoidal(10);
 
     cout << "Spline length: " << param.length << endl;
@@ -86,7 +87,7 @@ int main(int argc, const char * argv[])
         float a1 = param.arcLength(t1);
         cout << "Arc " << i << " t: " << t1 << " l: " << a1 << " d: " << a1 - a0 << endl;
     }
-    
+
     float goal[7];
     for(int j = 0; j < 10; j++) {
         spline.eval(parametization[j], goal);
